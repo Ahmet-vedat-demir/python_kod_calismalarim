@@ -1,0 +1,26 @@
+vize1 = float(input("ilk vize sınavınızın notunu giriniz.:  "))
+
+vize2 = float(input("ikinci vize sınavınızın notunu giriniz.: "))
+
+final = float(input("final sınavınızın notunu giriniz.: "))
+
+toplam_not = (vize1*0.3)+(vize2*0.3)+(final*0.4) 
+
+if toplam_not>=90:
+    print("Aferin! aldığınız not {} ve bu da AA demek".format(toplam_not))
+elif toplam_not>=85:
+    print("Aferin! aldığınız not {} ve bu da BA demek".format(toplam_not))
+elif toplam_not>=80:
+    print("Aferin! aldığınız not {} ve bu da BB demek".format(toplam_not))
+elif toplam_not>=75:
+    print("Aferin! aldığınız not {} ve bu da CB demek".format(toplam_not))
+elif toplam_not>=70:
+    print("Aferin! aldığınız not {} ve bu da CC demek".format(toplam_not))
+elif toplam_not>=65:
+    print("Aferin! aldığınız not {} ve bu da DC demek".format(toplam_not))    
+elif toplam_not>=60:
+    print("Aferin! aldığınız not {} ve bu da DD demek".format(toplam_not))
+elif toplam_not>=55:
+    print("Aferin! aldığınız not {} ve bu da FD demek".format(toplam_not))
+else:
+    print("Aferin! aldığınız not {} ve bu da FD demek".format(toplam_not))
