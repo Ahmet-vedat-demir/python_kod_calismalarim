@@ -1,0 +1,8 @@
+
+print("1 Litre mazot 23.56 Türk Lirasıdır.")
+
+kl = float(input("aracınızın km'de yaktığı litre miktarını km/lt hesabıyla giriniz.: "))
+
+km = float(input("aracınızın kaç km yol aldığını yazınız.: "))
+
+print("ödemeniz gereken miktar {} Türk Lirasıdır.".format(((km/kl)*23.56)))
